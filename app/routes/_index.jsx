@@ -1,4 +1,6 @@
+import { Link } from "react-router";
 import { Welcome } from "../welcome/welcome";
+import Category from "./category";
 
 export function meta({} ) {
   return [
@@ -8,5 +10,11 @@ export function meta({} ) {
 }
 
 export default function Home() {
-  return <Welcome />;
+  return(
+  <div>
+    <Link to="/category">Category</Link>
+    <Welcome />
+  
+  </div>
+) ;
 }

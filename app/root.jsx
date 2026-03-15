@@ -9,6 +9,7 @@ import {
 
 
 import "./app.css";
+import Headers from "./layouts/headers";
 
 export const links = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -33,6 +34,7 @@ export function Layout({ children }) {
         <Links />
       </head>
       <body>
+        <Headers/>
         {children}
         <ScrollRestoration />
         <Scripts />
