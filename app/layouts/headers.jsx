@@ -9,7 +9,7 @@ function Headers() {
             Logo
         </div>
     <ul>
-        <li><Link to="/">New Link</Link></li>
+        <li><Link to="/">New Link <span style={{color: "red"}}>Push</span> </Link></li>
         <li><Link to="/">New Link</Link></li>
         <li><Link to="/">New Link</Link></li>
         <li><Link to="/">New Link</Link></li>

@@ -5,18 +5,7 @@
   "scripts": {
     "build": "react-router build",
     "dev": "react-router dev",
-    "start": "react-router-serve ./build/server/index.js",
-    "typecheck": "react-router typegen && tsc"
-  },
-  "react-router": {
-    "fsRoutes": {
-      "extensions": [
-        "ts",
-        "tsx",
-        "js",
-        "jsx"
-      ]
-    }
+    "start": "react-router-serve ./build/server/index.js"
   },
   "dependencies": {
     "@react-router/fs-routes": "^7.12.0",
@@ -31,9 +20,6 @@
   "devDependencies": {
     "@react-router/dev": "7.12.0",
     "@tailwindcss/vite": "^4.1.13",
-    "@types/node": "^22",
-    "@types/react": "^19.2.7",
-    "@types/react-dom": "^19.2.3",
     "tailwindcss": "^4.1.13",
     "vite": "^7.1.7"
   }
