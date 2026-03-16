@@ -1,6 +1,6 @@
 // app/routes/signup.jsx
 import { redirect } from "react-router";
-import { User } from "../models/User";
+import { User } from "../models/User.server";
 
 export async function action({ request }) {
   const formData = await request.formData();

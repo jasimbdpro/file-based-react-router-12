@@ -10,6 +10,7 @@ if (process.env.NODE_NODE === "production") {
   if (!global.__db) {
     mongoose.connect(process.env.MONGODB_URI);
     global.__db = mongoose.connection;
+    console.log("mongodb connected")
   }
   db = global.__db;
 }
