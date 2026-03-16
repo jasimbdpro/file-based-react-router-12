@@ -1,5 +1,5 @@
 export async function loader() {
-  const { UserSchema } = await import("../models/User");
+  const { UserSchema } = await import("../models/User.server");
 
   const users = await UserSchema.find().lean();
 

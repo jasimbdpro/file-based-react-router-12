@@ -1,7 +1,5 @@
 export default {
-  fsRoutes: {
-    extensions: ['ts', 'tsx', 'js', 'jsx'], // include jsx
-  },
+  // Config options...
   // Server-side render by default, to enable SPA mode set this to `false`
   ssr: true,
 };
